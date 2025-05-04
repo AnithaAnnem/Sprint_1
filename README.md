@@ -8,6 +8,16 @@
 | Anitha Annem  |            |         | L1             | Rishabh Sharma       |
 | Anitha Annem  |            |         | L2             | piyush Upadhyay      |
 
+# Table of Contents
+
+1. [Recommended Commit Hooks](#recommended-commit-hooks)
+2. [Implementation Tools](#implementation-tools)
+3. [Pre-commit Hook](#pre-commit-hook)
+4. [Commit-msg Hook](#commit-msg-hook)
+5. [Pre-push Hook](#pre-push-hook)
+6. [Contact Information](#contact-information)
+7. [References](#references)
+
  For commit hooks understanding refer this link [Understanding commit Hooks](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aniruddh_SCRUM-102/vcs_design/commithooks/understanding/README.md) 
 
 # Recommended Commit Hooks
