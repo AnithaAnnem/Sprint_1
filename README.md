@@ -97,7 +97,14 @@ The **Salary API** in the OT-Microservices system efficiently manages salary tra
 - **Swagger** for documentation
 - **Maven** for builds
 It offers high performance, seamless integration with other microservices, and supports scalability and continuous deployment.
-## Contact Information
-_(Add contact details here if required)_
-## References
-_(List references here if applicable)_
+
+# Contact Information
+
+| Name       | Email Address                |
+|------------|------------------------------|
+| Anitha     |anitha.annem.snaatak@mygurukulam.co|
+
+# References
+
+
+
