@@ -1,5 +1,17 @@
+
+![image](https://github.com/user-attachments/assets/825cff3a-0ee2-47fa-afb5-b991dcbeee65)
+
+
 # Salary API Documentation
-## Table of Contents
+
+| Author        | Date       | Version | Review Level   | Reviewer Name        | 
+|---------------|------------|---------|----------------|----------------------|
+| Anitha Annem  | April 27   | v1.0   | Pre-Reviewer   | Priyanshu            |
+| Anitha Annem  |    |     | L0             | Khushi Malhothra      |
+| Anitha Annem  |            |         | L1             | Rishabh Sharma       |
+| Anitha Annem  |            |         | L2             | piyush Upadhyay      |
+
+# Table of Contents
 - [Salary API Overview](#salary-api-overview)
 - [Purpose of the Salary API](#purpose-of-the-salary-api)
 - [Architecture](#architecture)
@@ -84,7 +96,6 @@ The primary purpose of the Salary API is to streamline salary management process
 - Automate Java project builds and dependency resolution
 - Manage multi-module projects
 - Integrate with CI tools like Jenkins for automated builds/tests
-![Maven Architecture](maven-architecture-1024x250)
 
 # Swagger
 **Swagger** is an open-source toolset for designing, building, documenting, and testing RESTful APIs using the OpenAPI Specification (OAS).
