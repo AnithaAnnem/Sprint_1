@@ -8,7 +8,7 @@ This proof-of-concept (POC) demonstrates how to secure your domain with HTTPS us
 
 | Author        | Date       | Version | Review Level   | Reviewer Name        |
 |---------------|------------|---------|----------------|----------------------|
-| Anitha Annem  |    | v1.0    | Pre-Reviewer   | Priyanshu            |
+| Anitha Annem  |   May 01 | v1.0    | Pre-Reviewer   | Priyanshu            |
 | Anitha Annem  |    |     | L0             | Khushi Malothra      |
 | Anitha Annem  |            |         | L1             | Rishabh Sharma       |
 | Anitha Annem  |            |         | L2             | piyush Upadhyay      |
@@ -84,7 +84,7 @@ Create a basic config for your domain if not already done:
 ```bash
 server {
     listen 80;
-    server_name example.com www.example.com;
+    server_name cloudninja.com www.cloudninja.com;
 
     root /var/www/html;
     index index.html;
@@ -94,12 +94,12 @@ server {
     }
 }
 ```
-Save it to /etc/nginx/sites-available/example.com
+Save it to /etc/nginx/sites-available/cloudninja.com
 
 Enable the site:
 
 ```bash
-sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/cloudninja.com /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl reload nginx
 ```
@@ -109,7 +109,7 @@ sudo systemctl reload nginx
 Run the Certbot command with your domain name:
 
 ```bash
-sudo certbot --nginx -d example.com -d www.example.com
+sudo certbot --nginx -d cloudninja.com -d www.cloudninja.com
 ```
 
 Certbot will:
@@ -122,7 +122,7 @@ Certbot will:
 ### 5. Verify SSL Installation
 
 Open your domain in a browser:
-👉 https://example.com — You should see the secure padlock icon.
+👉 https://cloudninja.com — You should see the secure padlock icon.
 
 ### 5. Test Auto-Renewal
 
@@ -131,6 +131,11 @@ Certbot auto-renews certificates every 60 days. You can simulate a renewal with:
 ```bash
 sudo certbot renew --dry-run
 ```
+
+You should see a padlock icon and your custom HTML page.
+
+![image](https://github.com/user-attachments/assets/0f308d5d-ec7d-455d-a9bb-346a84b27d2e)
+
 
 
 # POC Success Criteria
