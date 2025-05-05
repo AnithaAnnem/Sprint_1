@@ -6,7 +6,7 @@
 
 | Author        | Date       | Version | Review Level   | Reviewer Name        | 
 |---------------|------------|---------|----------------|----------------------|
-| Anitha Annem  | April 27   | v1.0   | Pre-Reviewer   | Priyanshu            |
+| Anitha Annem  | May 03   | v1.0   | Pre-Reviewer   | Priyanshu            |
 | Anitha Annem  |    |     | L0             | Khushi Malhothra      |
 | Anitha Annem  |            |         | L1             | Rishabh Sharma       |
 | Anitha Annem  |            |         | L2             | piyush Upadhyay      |
@@ -25,7 +25,7 @@
 - [References](#references)
   
 # Salary API Overview
-The **Salary API** is a vital microservice in the **OT-Microservices** project, handling employee salary data and transactions. It operates independently, integrating with other services like Employee and Attendance APIs. Designed for high performance, scalability, and reliability, it is optimized for cloud environments and follows modern development practices.
+The **Salary API** is a vital microservice in the [OT-Microservices](OT-Microservices) project, handling employee salary data and transactions. It operates independently, integrating with other services like Employee and Attendance APIs. Designed for high performance, scalability, and reliability, it is optimized for cloud environments and follows modern development practices.
 
 # Purpose of the Salary API
 The primary purpose of the Salary API is to streamline salary management processes within the organization.
@@ -46,56 +46,26 @@ The primary purpose of the Salary API is to streamline salary management process
 - Database migrations handled using **Migrate**
 
 # Architecture
-![Screenshot from 2025-05-03 20-06-04](https://github.com/user-attachments/assets/e30aef13-1660-47ea-b063-0bf0e8ac9362)
+![image](https://github.com/user-attachments/assets/cdb6ce44-0db5-4468-acd0-c24c1b838f66)
 
 
 # ScyllaDB
 
-**ScyllaDB** is a high-performance NoSQL database designed as a drop-in replacement for Apache Cassandra. It offers low-latency, high-throughput storage, optimized for scalable applications, and efficiently utilizes modern multi-core CPUs.
-
-### Why ScyllaDB
-- High performance with low latency
-- Cassandra compatibility
-- Automatic data sharding
-- Automated database management (reduced manual tuning)
-### Use Cases
-- Real-time data collection in IoT applications (millions of devices)
-- Large transaction processing with low latency in financial services (fraud detection, analytics)
-
+Refer this link for the deatiled documentation [ScyllaDB](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aniruddh_SCRUM-111/ot_ms_understanding/software/database/scylladb/documentation/README.md)
+ 
   
 # Redis
-**Redis** is an open-source, in-memory data store used for caching, session management, and messaging. It supports various data structures and provides fast read/write performance.
-### Why Redis
-- Caching and session management
-- Real-time messaging (Pub/Sub)
-- Data persistence with fast retrieval
-- Reduces database load and supports recovery after restarts
-### Use Cases
-- Web caching to improve response times
-- Leaderboards for gaming/social media platforms
-- Real-time analytics and event data aggregation (monitoring, ad tech)
+
+Refer this link for the deatiled documentation [Redis](https://github.com/Cloud-NInja-snaatak/Documentation/blob/SHREY-SCRUM-107/ot_ms_understanding/software/middleware/redis/documentation/README.md)
   
 # Migrate
-**Migrate** is a database migration tool used to manage schema changes in evolving applications, especially in Go environments, ensuring consistent, version-controlled schemas across environments.
-### Why Migrate
-- Schema versioning and consistency
-- Reversible migrations for safe deployment/rollback
-- Automates migrations in CI/CD pipelines
-### Use Cases
-- Evolve schemas without manual SQL scripts
-- Automate migrations in pipelines
-- Manage schemas in multi-tenant applications
+Refer this link for the deatiled documentation[Migrate](https://github.com/Cloud-NInja-snaatak/Documentation/blob/anitha_scrum42/commonstack/dependencies/migrate/documentation.md)
+
+
   
 # Maven
-**Maven** is a build automation and dependency management tool for Java applications, using a declarative `pom.xml` configuration.
-### Why Maven
-- Automates dependency management and build processes
-- Standardizes project structures
-- Supports plugins for testing, packaging, deployment
-### Use Cases
-- Automate Java project builds and dependency resolution
-- Manage multi-module projects
-- Integrate with CI tools like Jenkins for automated builds/tests
+
+Refer this link for the deatiled documentation [Maven](https://github.com/Cloud-NInja-snaatak/Documentation/blob/kanika_scrum26/commonstack/applications/java/maven/documentation.md)
 
 # Swagger
 **Swagger** is an open-source toolset for designing, building, documenting, and testing RESTful APIs using the OpenAPI Specification (OAS).
@@ -136,8 +106,6 @@ It offers high performance, seamless integration with other microservices, and s
 | [scylladb](https://www.scylladb.com/) | The documentation for this section is followed from this link. |
 | [Redis](https://redis.io/) | The documentation for this section is followed from this link. |
 | [migrate](https://github.com/golang-migrate/migrate) | The documentation for this section is followed from this link. |
-
-
 
 
 
