@@ -1,16 +1,23 @@
 # Run OT MS Application with all components
+
+|**Author**        | **created on**       | **Version** |**Last edited on**| **Review Level**   | **Reviewer**      |
+|---------------|------------|---------|--------|--------|----------------------|
+| Anitha Annem  | May 08  | v1.0|  May 08    | Pre-Reviewer   | Priyanshu            |
+| Anitha Annem  | May 08 |  |   | L0             | Khushi Malhothra    |
+| Anitha Annem  |  May 08    |      |         | L1             | Mukul Joshi       |
+| Anitha Annem  | May 08     |      |         | L2             | piyush Upadhyay      |
   
-## Table of content
+# Table of content
 - [FullStack Architecture](#FullStack-Architecture)  
 - [Applications Installation](#Applications-Installation)  
 - [Running the Application](#Running-the-Application)  
 - [Contact Information](#Contact-Information)  
 - [References](#References)
-## FullStack Architecture
+# FullStack Architecture
 
 ![image](https://github.com/user-attachments/assets/da978459-ecf3-4358-97f6-fe818b0aefb5)
 
-## Applications Installation
+# Applications Installation
 To run the application successfully, below apis should be configured. 
 ###  Frontend POC
 
@@ -31,10 +38,16 @@ For the more information related refer this link[Salary API POC](https://github.
 ```bash
 http://PUBLIC_IP:3000
 ```
-## References
+
+# Contact Information 
+| Name       | Email Address                |
+|------------|------------------------------|
+| Anitha     |anitha.annem.snaatak@mygurukulam.co|
+
+# References
 | **Link** | **Description** |
 |------------------------------------------------------|------------------|
-| [Attendance]| Attendance Documentations      |
-| [Employee]| Employee Documentations |
-| [Salary]| Salary Documentations|
-|[Frontend]| Frontend Documentations |
+| [Attendance](https://github.com/Cloud-NInja-snaatak/Documentation/blob/Shubham_SCRUM-72/ot_ms_understanding/application/attendance/documentation/README.md)| Attendance Documentations      |
+| [Employee](https://github.com/Cloud-NInja-snaatak/Documentation/blob/aditya_SCRUM-86/ot_ms_understanding/application/employee/documentation/README.md)| Employee Documentations |
+| [Salary](https://github.com/Cloud-NInja-snaatak/Documentation/blob/anitha-SCRUM-95/ot_ms_understanding/application/salary/documentation/README.md)| Salary Documentations|
+|[Frontend](https://github.com/Cloud-NInja-snaatak/Documentation/blob/kanika-SCRUM-97/ot_ms_understanding/application/frontend/documentation/README.md)| Frontend Documentations |
