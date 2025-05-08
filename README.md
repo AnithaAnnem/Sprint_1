@@ -8,7 +8,7 @@
 - [References](#References)
 ## FullStack Architecture
 
-https://github.com/Cloud-NInja-snaatak/Documentation/blob/aniruddh_SCRUM-93/ot_ms_understanding/application/salary/setup/README.md
+![image](https://github.com/user-attachments/assets/da978459-ecf3-4358-97f6-fe818b0aefb5)
 
 ## Applications Installation
 To run the application successfully, below apis should be configured. 
